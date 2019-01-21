@@ -1,0 +1,10 @@
+# Dev related
+.idea/
+.pytest_caches/
+
+# Logs
+logs/
+
+# Executables
+*.sh~
+*.pyc
