@@ -10,11 +10,10 @@ from keras.models import Model
 from keras.regularizers import l2
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
-from spektral.layers import CCMMembership
 from spektral.utils import batch_iterator
 from spektral.utils.logging import init_logging
 
-from geometry import ccm_normal, ccm_uniform, clip, get_distance
+from geometry import ccm_normal, ccm_uniform, clip, get_distance, CCMMembership
 
 # Keras 2.2.2 throws UserWarnings all over the place during training
 if not sys.warnoptions:
