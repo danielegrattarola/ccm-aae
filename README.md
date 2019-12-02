@@ -5,11 +5,14 @@ This code showcases the general structure of the methodology used for the experi
 Please cite the paper if you use any of this code for your research:   
 
 ```
-@article{grattarola2018adversarial,
-  title={Adversarial Autoencoders with Constant-Curvature Latent Manifolds},
+@article{grattarola2019adversarial,
+  title={Adversarial autoencoders with constant-curvature latent manifolds},
   author={Grattarola, Daniele and Livi, Lorenzo and Alippi, Cesare},
-  journal={arXiv preprint arXiv:1812.04314},
-  year={2018}
+  journal={Applied Soft Computing},
+  volume={81},
+  pages={105511},
+  year={2019},
+  publisher={Elsevier}
 }
 ```
 
